@@ -1,0 +1,70 @@
+body{
+    background-image: url(95505417-pay-bills-and-taxes-papers-calculator-money-on-white-background-top-view-copy-space.jpg);
+}
+div{
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    align-content: center;
+    justify-content: center;
+    background-color: #3d4543;;
+}
+
+.button,.cancel{
+    display:inline-block;
+      top: 50px;
+    border-radius: 5px;
+  margin: 5px 5px 5px 10px;
+    width: 80px;
+    height: 80px;
+    font-size: 25px;
+      position: relative; 
+    background-color: 	#303030;
+   border-right: 4px solid #DCDCDC;
+     border-bottom: 4px solid #DCDCDC;
+   background: white;
+    
+}
+
+.operation{
+      top: 50px;
+       border-radius: 5px;
+    margin: 5px 5px 5px 10px;
+    width: 80px;
+    height: 80px;
+    font-size: 25px;
+      position: relative;
+    background-color: #808080;
+    border-right: 4px solid #696969;
+     border-bottom: 4px solid #696969;
+     
+}
+.button:hover,.operation:hover{
+      background-color: rgba(10,10,1);
+  color: white;
+    cursor: pointer;
+}
+td,tr{
+    padding: 5px;
+    border-collapse: collapse;
+}
+.text{
+   border-bottom: 1px solid black;
+    background-color: 	#bccd95;
+    top: 5px;
+    left: 10px;
+    right: 10px;
+    position: relative;
+    width: 370px;
+    height: 70px;
+    text-align: right;
+    text-decoration-color: black;
+    font-size:40px;
+    border-top: 5px solid #C1C1C1;
+    border-right: 5px solid #C1C1C1;
+    border-bottom: 5px solid #FFF;
+    border-left: 5px solid #FFF;
+    border-radius: 10px;
+}
